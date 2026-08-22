@@ -353,7 +353,7 @@ nav .ri-close-circle-fill{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/phoneBcakground.jpg);
+        background-image: url(./images/phoneBcakground.jpg);
     }
     .header-text {
         margin-top: 100%;
