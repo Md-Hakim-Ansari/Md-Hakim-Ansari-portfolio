@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <!-- ----------------------HOME--------------------------  -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo"">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-circle-fill" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-line" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, i'm Md <span>Hakim</span> Ansari <br>from India </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------ABOUT----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/hakim.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a passionate Full-Stack Web Developer and BCA graduate with a strong foundation in building modern, scalable, and responsive web applications. I specialize in the MERN stack (MongoDB, Express.js, React, Node.js) and enjoy solving complex backend logic while designing clean, user-friendly frontend interfaces. Continuous learning and writing efficient code are what drive me every day.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')" >Experience</p>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-2025</span><br>Bachelor of Science(H) in Computer Application (BCA)</li>
+                            <li><span>2020-2022</span><br>Intermediate (Science)</li>
+                            <li><span>2019-2020</span><br>Secondary School Examination (Matriculation)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web development</span><br>Full-Stack MERN Developer specializing in building modern, scalable web applications. Proficient in Frontend development using HTML, CSS, and JavaScript for responsive UI/UX. Skilled in creating robust Backend systems and RESTful APIs with Express.js and Node.js.
+                            </li>
+                            <li>
+                                <span>Programming Languages</span><br>JavaScript, C, C++,Java (Basic)
+                            </li>
+                            <li>
+                                <span>Core Concepts</span><br> Data Structures,OOPs, DBMS (Basics)
+                            </li>
+                            </li>
+                            <li>
+                                <span> Database</span><br> MySQL, MongoDB
+                            </li>
+                            </li>
+                            <li>
+                                <span> Languages Known</span><br> Hindi, English
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2026 - present</span><br>MERN Stack Developer Intern — QSpiders <br><br>Currently pursuing a MERN Stack internship at QSpiders, gaining hands-on experience in React.js, Node.js, Express.js, MongoDB, REST APIs, and Git/GitHub while working on practical web development projects</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- ----------------------SERVICES---------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus itaque reiciendis dolore iste nam? Laboriosam dignissimos dolor totam unde quidem?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-crop-line"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus itaque reiciendis dolore iste nam? Laboriosam dignissimos dolor totam unde quidem?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-app-store-fill"></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus itaque reiciendis dolore iste nam? Laboriosam dignissimos dolor totam unde quidem?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------portfolio-------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png"  >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eligendi distinctio voluptatibus ab iure nesciunt. Dolores deserunt mollitia earum minus?</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png"  >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eligendi distinctio voluptatibus ab iure nesciunt. Dolores deserunt mollitia earum minus?</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png"  >
+                    <div class="layer">
+                        <h3>Online Shopping App App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eligendi distinctio voluptatibus ab iure nesciunt. Dolores deserunt mollitia earum minus?</p>
+                        <a href="#">
+                            <i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+            </div>
+             
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!-- -------------------CONTACT-------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ri-send-plane-fill"></i>muzammilhakim786@gmail.com</p>
+                    <p><i class="ri-phone-fill"></i>6202712282</p>
+                    <div class="social-icons">
+                        <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i class="ri-twitter-fill"></i></a>
+                        <a href=""><i class="ri-whatsapp-fill"></i></a>
+                      
+                    </div>
+                    <a class="btn btn2" href="images/my-cv.pdf" download="">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ©️ Hakim <i class="ri-heart-fill"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
